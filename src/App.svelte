@@ -96,6 +96,7 @@
 	<IconLinks />
 	<small>{$textLanguage.rodape}
 		<a
-			href="https://github.com/lucaslpsan">{$textLanguage.rodapeLinkCod}</a>.
-		😊</small>
+			href="https://github.com/lucaslpsan/lucaslpsan.dev"
+			rel="noopener"
+			target="_blank">{$textLanguage.rodapeLinkCod}</a>. 😊</small>
 </main>

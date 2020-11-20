@@ -15,7 +15,7 @@ export const ptBR = {
         "Quer vê alguns de meus projetos ou mais infos?<br>Role a página!"
     ],
     language: `Languages`, projetos: `Projetos`, possivoMasc: `Meu`,
-    rodape: `©2020 - Gostou da página? O código está`, rodapeLinkCod: `aqui`,
+    rodape: `©2020 - Gostou da página?`, rodapeLinkCod: `O código fonte está aqui`,
     topicos: `Alguns tópicos sobre mim`,
     topicoFormacao: `Formação`,
     formacao: `<b>Bacharelado em Sistemas de Infomação</b><br>2014-2017<br><i><a href="https://upis.br/" target="_blank">UPIS</a> - Brasília - DF</i><br><br>
@@ -50,7 +50,7 @@ export const enUS = {
         "Want to see some of my projects or more infos?<br> Roll the page!"
     ],
     language: `Idiomas`, projetos: `Projects`, possivoMasc: `My`,
-    rodape: `©2020 - Did you like the page? The code is`, rodapeLinkCod: `here`,
+    rodape: `©2020 - Did you like the page?`, rodapeLinkCod: `The source code is here`,
     topicos: `Some topics about me`,
     topicoFormacao: `Training`,
     formacao: `<b>Bachelor of Information Systems</b><br>2014-2017<br><i><a href="https://upis.br/" target="_blank">UPIS</a> - Brasília - Brazil</i><br><br>
