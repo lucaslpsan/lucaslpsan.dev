@@ -1,0 +1,149 @@
+{
+    "language": "English",
+    "dev": "Information Technology (IT)",
+    "description": "Enthusiast for Front-End, UX, database and security.",
+    "footer": "2021© - made with Svelte.",
+    "sections": {
+        "training": "Training",
+        "experience": "Experience",
+        "certification": "Certifications",
+        "projects": "Projects",
+        "contacts": "Contacts"
+    },
+    "content": {
+        "training": [
+            {
+                "name": "Bachelor of Information Systems",
+                "date": "2014-2017",
+                "school": "UPIS",
+                "local": "Brasília - Brazil"
+            },
+            {
+                "name": "Extension course in Introduction to Java for Web",
+                "date": "2016",
+                "school": "UPIS",
+                "local": "Brasília - Brazil"
+            },
+            {
+                "name": "JavaScript Algorithms and Data Structures Certification (300 hours)",
+                "date": "2019-",
+                "school": "freeCodeCamp",
+                "local": "Online"
+            },
+            {
+                "name": "Bootcamp - Full Stack Developer",
+                "date": "2020",
+                "school": "Institute of Management and Information Technology",
+                "local": "Online"
+            }
+        ],
+        "certification": [
+            {
+                "name": "Mobile Sites Certification",
+                "date": "2019-2020",
+                "description": "Recognizes a strong knowledge of mobile sites design, and an understanding of best practices and current browser technologies.",
+                "examiner": "Google",
+                "link": "https://skillshop.exceedlms.com/student/award/34260700",
+                "id": "34260700"
+            },
+            {
+                "name": "Scrum Foundation Professional Certificate - (Portuguese)",
+                "date": "2020-",
+                "description": "",
+                "examiner": "CertiProf",
+                "link": "https://lucaslpsan.dev/certificates/sfpc.pdf",
+                "id": "CLVPFRNYPR-SSLJKZJL-XHRTYTRYSH"
+            },
+            {
+                "name": "Cyber Security Foundation Professional Certificate - CSFPC™",
+                "date": "2021-2023",
+                "description": "",
+                "examiner": "CertiProf",
+                "link": "https://certificates.easy-lms.com/exam/session/7436a7cb-643e-45ef-adc8-9019eba18be3",
+                "id": "60080039"
+            }
+        ],
+        "experience": [
+            {
+                "name": "Intern in Federal Regional Court of the First Region - Brazil",
+                "date": "2015-2017",
+                "type": "Public Service",
+                "description": "Development in Oracle 12c database with PL/SQL. Database modeling, screen building and reporting in Oracle Forms.",
+                "local": "Brasília - Brazil"
+            },
+            {
+                "name": "Front-End Developer - Junior in Grupo NT",
+                "date": "2019-2020",
+                "type": "Private sector",
+                "description": "Development, maintenance and evolution of courses using HTML5, CSS, Angular JS, JavaScript, Jquery, Gulp and NodeJS.",
+                "local": "Brasília - Brazil"
+            },
+            {
+                "name": "Administrator in Radiadores Lima",
+                "date": "2020-2021",
+                "type": "Private sector",
+                "description": "I paused my career in IT to manage my family's radiator workshop.",
+                "local": "Alvorada do Norte - Goiás - Brazil"
+            }
+        ],
+        "projects": [
+            {
+                "name": "VsCode Page",
+                "description": "The main VSCode window redone in the browser with svelte",
+                "link": "/next"
+            },
+            {
+                "name": "Vuetify Pug snippet for VSCode",
+                "description": "Snippet for the Vuetify framework using Pug. Type faster with Auto Completion and Identation.",
+                "link": "https://marketplace.visualstudio.com/items?itemName=lucaslpsan.vuetify-pug-snippet"
+            },
+            {
+                "name": "Watch Faces for Amazfit Band 5 and Xiaomi Band 5",
+                "description": "Watch Faces (wallpapers) shared for free.",
+                "link": "https://amazfitwatchfaces.com/search/mi-band-5/authorID/478005"
+            },
+            {
+                "name": "Skin for Euro Truck Simulator 2",
+                "description": "Paintings shared for free in the Steam Workshop community.",
+                "link": "https://steamcommunity.com/id/lucaslpsan/myworkshopfiles/"
+            }
+        ],
+        "contacts": [
+            {
+                "name": "Github",
+                "link": "https://github.com/lucaslpsan",
+                "possessive": "My"
+            },
+            {
+                "name": "Linkedin",
+                "link": "https://www.linkedin.com/in/lucaslpsan/",
+                "possessive": "My"
+            },
+            {
+                "name": "Steam",
+                "link": "https://steamcommunity.com/id/lucaslpsan",
+                "possessive": "My"
+            },
+            {
+                "name": "SoundCloud",
+                "link": "https://soundcloud.com/lucaslpsan",
+                "possessive": "My"
+            },
+            {
+                "name": "VsCode Marketplace",
+                "link": "https://marketplace.visualstudio.com/publishers/lucaslpsan",
+                "possessive": "My"
+            },
+            {
+                "name": "Blogger",
+                "link": "https://blog.lucaslpsan.dev/",
+                "possessive": "My"
+            }
+        ]
+    },
+    "aux": {
+        "permalink": "Permalink to",
+        "linkCertificationTitle": "Certification link in a new tab",
+        "pagAbout": "Learn More"
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "language": "Português",
+    "dev": "Tecnologia da Informação (TI)",
+    "description": "Entusiasta por Front-End, UX, banco de dados e segurança.",
+    "footer": "2021© - feito com Svelte.",
+    "sections": {
+        "training": "Formação",
+        "experience": "Experiência",
+        "certification": "Certificações",
+        "projects": "Projetos",
+        "contacts": "Contatos"
+    },
+    "content": {
+        "training": [
+            {
+                "name": "Bacharelado em Sistemas de Infomação",
+                "date": "2014-2017",
+                "school": "UPIS",
+                "local": "Brasília - DF"
+            },
+            {
+                "name": "Curso de extensão em Introdução a Java para Web",
+                "date": "2016",
+                "school": "UPIS",
+                "local": "Brasília - DF"
+            },
+            {
+                "name": "JavaScript Algorithms and Data Structures Certification (300 hours)",
+                "date": "2019-",
+                "school": "freeCodeCamp",
+                "local": "Online"
+            },
+            {
+                "name": "Bootcamp - Desenvolvedor Full Stack",
+                "date": "2020",
+                "school": "Instituto de Gestão e Tecnologia da Informação - IGTI",
+                "local": "Online"
+            }
+        ],
+        "certification": [
+            {
+                "name": "Certificação em Sites para Dispositivos Móveis",
+                "date": "2019-2020",
+                "description": "Reconhece um conhecimento sólido sobre design de sites para dispositivos móveis e conhece as práticas recomendadas e tecnologias atuais dos navegadores.",
+                "examiner": "Google",
+                "link": "https://skillshop.exceedlms.com/student/award/34241216",
+                "id": "34241216"
+            },
+            {
+                "name": "Scrum Foundation Professional Certificate - (Portuguese)",
+                "date": "2020-",
+                "description": "",
+                "examiner": "CertiProf",
+                "link": "https://lucaslpsan.dev/certificates/sfpc.pdf",
+                "id": "CLVPFRNYPR-SSLJKZJL-XHRTYTRYSH"
+            },
+            {
+                "name": "Cyber Security Foundation Professional Certificate - CSFPC™",
+                "date": "2021-2023",
+                "description": "",
+                "examiner": "CertiProf",
+                "link": "https://certificates.easy-lms.com/exam/session/7436a7cb-643e-45ef-adc8-9019eba18be3",
+                "id": "60080039"
+            }
+        ],
+        "experience": [
+            {
+                "name": "Estagiário no Tribunal Regional Federal da 1ª Região",
+                "date": "2015-2017",
+                "type": "Serviço público",
+                "description": "Desenvolvimento em banco de dados Oracle 12c com PL/SQL. Modelagem de banco dados, construção de telas e relatórios em Oracle Forms.",
+                "local": "Brasília - DF"
+            },
+            {
+                "name": "Desenvolvedor Front-End - Junior no Grupo NT",
+                "date": "2019-2020",
+                "type": "Iniciativa privada",
+                "description": "Desenvolvimento, manutenção e evolução de cursos utilizando HTML5, CSS, Angular JS, JavaScript, Jquery, Gulp e NodeJS.",
+                "local": "Brasília - DF"
+            },
+            {
+                "name": "Administrador na Radiadores Lima",
+                "date": "2020-2021",
+                "type": "Iniciativa privada",
+                "description": "Pausei minha carreira na TI para administrar a oficina de radiadores da minha família.",
+                "local": "Alvorada do Norte - GO"
+            }
+        ],
+        "projects": [
+            {
+                "name": "VsCode Page",
+                "description": "A janela principal do VSCode refeita no navegador com svelte.",
+                "link": "/next"
+            },
+            {
+                "name": "Vuetify Pug snippet para VSCode",
+                "description": "Snippet para o framework Vuetify utilizando Pug. Digite mais rapidamente com auto completar e identação.",
+                "link": "https://marketplace.visualstudio.com/items?itemName=lucaslpsan.vuetify-pug-snippet"
+            },
+            {
+                "name": "Watch Faces para a Amazfit Band 5 e Xiaomi Band 5",
+                "description": "Watch Faces (papéis de parede) compartilhadas gratuitamente.",
+                "link": "https://amazfitwatchfaces.com/search/mi-band-5/authorID/478005"
+            },
+            {
+                "name": "Skin para Euro Truck Simulator 2",
+                "description": "Pinturas compartilhadas gratuitamente na comunidade Steam Workshop.",
+                "link": "https://steamcommunity.com/id/lucaslpsan/myworkshopfiles/"
+            }
+        ],
+        "contacts": [
+            {
+                "name": "Github",
+                "link": "https://github.com/lucaslpsan",
+                "possessive": "Meu"
+            },
+            {
+                "name": "Linkedin",
+                "link": "https://www.linkedin.com/in/lucaslpsan/",
+                "possessive": "Meu"
+            },
+            {
+                "name": "Steam",
+                "link": "https://steamcommunity.com/id/lucaslpsan",
+                "possessive": "Minha"
+            },
+            {
+                "name": "SoundCloud",
+                "link": "https://soundcloud.com/lucaslpsan",
+                "possessive": "Minha"
+            },
+            {
+                "name": "VsCode Marketplace",
+                "link": "https://marketplace.visualstudio.com/publishers/lucaslpsan",
+                "possessive": "Meu"
+            },
+            {
+                "name": "Blogger",
+                "link": "https://blog.lucaslpsan.dev/",
+                "possessive": "Meu"
+            }
+        ]
+    },
+    "aux": {
+        "permalink": "Link permanente para",
+        "linkCertificationTitle": "Link da certificação em uma nova aba",
+        "pagAbout": "Saiba mais"
+    }
+}

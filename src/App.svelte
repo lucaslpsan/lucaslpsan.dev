@@ -1,102 +1,83 @@
 <script>
-	import Caroulse from "./components/Caroulse.svelte";
-	import ContentModal from "./components/ContentModal.svelte";
-	import Modal from "./components/Modal.svelte";
-	import { textLanguage, colorUI } from "./helpers/store";
-	import { slide } from "svelte/transition";
-	import IconLinks from "./components/IconLinks.svelte";
-	import { translateIcon, projectsIcon } from "./svgs/svg";
-
-	let visibleTranslates = false;
-	let visibleProjects = false;
+	import { textLanguage as t } from "./helper/store";
+	import Section from "./components/Section.svelte";
+	import Signature from "./components/Signature.svelte";
 </script>
+
+<main class="disable-select">
+	<img src="logo.svg" alt="logo lucaslpsan" draggable="false" />
+	<h1>Lucas Lopes - {$t.dev}</h1>
+	<p>
+		{$t.description}
+	</p>
+</main>
+
+<Section section="training" />
+<Section section="certification" />
+<Section section="experience" />
+<Section section="projects" />
+<Section section="contacts" />
+
+<Signature />
+
+<footer class="disable-select">{$t.footer}</footer>
+
+<div class="language-select disable-select">
+	<button on:click={() => t.br()} disabled={$t.language === "Português"}
+		>Português</button
+	>
+	/
+	<button on:click={() => t.en()} disabled={$t.language === "English"}
+		>English</button
+	>
+</div>
 
 <style>
 	main {
-		text-align: center;
+		padding: 15vh 0;
+		max-width: 240px;
 		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		font-weight: 100;
 	}
 
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
+			padding: 25vh 1em;
 		}
 	}
 
-	.options {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		margin-left: 2em;
+	@media (max-width: 440px) {
+		img {
+			width: 50vw;
+		}
 	}
 
-	.buttonsOptions button {
-		background-color: transparent;
-		cursor: pointer;
+	p {
+		font-weight: 400;
+	}
+
+	.language-select {
+		position: fixed;
+		top: 10px;
+		right: 10px;
+	}
+
+	.language-select button {
 		border: none;
+		background-color: unset;
+		cursor: pointer;
 	}
-	.centerLinks {
-		margin-bottom: 0.5em;
+
+	.language-select button:disabled {
+		cursor: unset;
 	}
-	.centerLinks a {
-		text-decoration: none;
-		color: unset;
-		padding: 0.4em;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-	.svgs {
-		width: 20px;
+	footer {
+		text-align: center;
+		padding-bottom: 3vh;
 	}
 </style>
-
-<main>
-	<Caroulse />
-	<Modal>
-		<ContentModal />
-	</Modal>
-	<div
-		class="options buttonsOptions"
-		on:mouseover={(e) => (e.target.style.color = $colorUI)}
-		on:mouseout={(e) => (e.target.style.color = 'unset')}>
-		<div class="svgs" style={`fill:${$colorUI};`}>
-			{@html translateIcon}
-		</div>
-		<button
-			on:click={() => (visibleTranslates = !visibleTranslates)}>{$textLanguage.language}</button>
-		<div on:click={() => (visibleTranslates = false)}>
-			{#if visibleTranslates}
-				<div transition:slide>
-					<button
-						on:click={() => textLanguage.br()}>Português</button>
-					<button on:click={() => textLanguage.en()}>English</button>
-				</div>
-			{/if}
-		</div>
-	</div>
-	<div
-		class="options buttonsOptions"
-		on:mouseover={(e) => (e.target.style.color = $colorUI)}
-		on:mouseout={(e) => (e.target.style.color = 'unset')}>
-		<div class="svgs" style={`fill:${$colorUI};`}>
-			{@html projectsIcon}
-		</div>
-		<button
-			on:click={() => (visibleProjects = !visibleProjects)}>{$textLanguage.projetos}</button>
-		<div on:click={() => (visibleProjects = false)} class="centerLinks">
-			{#if visibleProjects}
-				<div transition:slide>
-					<a href="/next" target="_blank">VsCode Page</a>
-					<a href="/ets2" target="_blank">Mod Euro Truck Simulator 2</a>
-				</div>
-			{/if}
-		</div>
-	</div>
-	<IconLinks />
-	<small>{$textLanguage.rodape}
-		<a
-			href="https://github.com/lucaslpsan/lucaslpsan.dev"
-			rel="noopener"
-			target="_blank">{$textLanguage.rodapeLinkCod}</a>. 😊</small>
-</main>
