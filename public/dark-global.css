@@ -1,0 +1,10 @@
+.dark {
+    background-color: rgb(12, 12, 12);
+    color: #EEE;
+    fill: #EEE;
+}
+
+.dark .logo img {
+    filter: invert(.95);
+    transition: filter 0.3s;
+}

@@ -2,9 +2,16 @@
 	import { textLanguage as t } from "./helper/store";
 	import Section from "./components/Section.svelte";
 	import Signature from "./components/Signature.svelte";
+
+	let iconSwithTheme = true;
+
+	function toggle() {
+		window.document.body.classList.toggle("dark");
+		iconSwithTheme = !iconSwithTheme;
+	}
 </script>
 
-<main class="disable-select">
+<main class="disable-select logo">
 	<img src="logo.svg" alt="logo lucaslpsan" draggable="false" />
 	<h1>Lucas Lopes - {$t.dev}</h1>
 	<p>
@@ -29,6 +36,9 @@
 	/
 	<button on:click={() => t.en()} disabled={$t.language === "English"}
 		>English</button
+	>
+	<button on:click={toggle}
+		>{@html iconSwithTheme ? "&#127770;" : "&#127774;"}</button
 	>
 </div>
 
@@ -75,6 +85,10 @@
 
 	.language-select button:disabled {
 		cursor: unset;
+	}
+
+	.language-select button:last-child {
+		font-size: 1.2em;
 	}
 	footer {
 		text-align: center;
