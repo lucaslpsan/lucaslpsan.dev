@@ -31,6 +31,22 @@ a:visited {
 	color: rgb(0,80,160);
 }
 
+.hover button:not([disabled]):after,
+.hover a:not([disabled]):after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.hover button:not([disabled]):hover:after,
+.hover a:not([disabled]):hover:after {
+	width: 100%;
+	background: #333;
+}
+
 label {
 	display: block;
 }

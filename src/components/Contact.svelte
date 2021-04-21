@@ -14,7 +14,7 @@
 <div class="links">
     <!-- <div class="wrapper-info-contacts"> -->
     {#each infos as { name, link, possessive }}
-        <div class="info-contacts disable-select">
+        <div class="info-contacts disable-select hover">
             <h3>{name}</h3>
             <a
                 href={link}
@@ -37,8 +37,6 @@
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-evenly;
-        /* gap: 15px; */
-        /* margin: 1em; */
         padding-left: 5vw;
     }
     @media (max-width: 1200px) {
@@ -49,7 +47,6 @@
         }
     }
     .links a {
-        /* height: 25px; */
         width: 30px;
     }
     .info-contacts {
@@ -58,10 +55,6 @@
         align-items: center;
     }
     .info-contacts h3 {
-        /* font-style: italic; */
         margin-bottom: 8px;
-    }
-    .info-contacts a:hover {
-        fill: gray;
     }
 </style>

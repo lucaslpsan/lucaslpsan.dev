@@ -8,3 +8,16 @@
     filter: invert(.95);
     transition: filter 0.3s;
 }
+
+.dark .hover button:not([disabled]):hover:after,
+.dark .hover a:not([disabled]):hover:after {
+	background: #EEE;
+}
+
+.dark button {
+	color: #999;
+}
+
+.dark button:disabled {
+    color: #333;
+}

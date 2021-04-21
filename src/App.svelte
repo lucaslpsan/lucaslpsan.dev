@@ -29,7 +29,7 @@
 
 <footer class="disable-select">{$t.footer}</footer>
 
-<div class="language-select disable-select">
+<div class="language-select disable-select hover">
 	<button on:click={() => t.br()} disabled={$t.language === "Português"}
 		>Português</button
 	>

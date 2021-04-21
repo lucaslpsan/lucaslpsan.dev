@@ -9,7 +9,7 @@
 </script>
 
 <section id={section}>
-    <h2>
+    <h2 class="hover">
         <a
             href="#{section}"
             title={$t.aux.permalink + " " + $t.sections[section]}
@@ -38,8 +38,11 @@
         font-size: 2em;
         font-weight: 600;
         margin-block-end: 0;
+        display: inline-block;
+        width: auto;
     }
     h2 a {
         color: unset;
+        text-decoration: none;
     }
 </style>
