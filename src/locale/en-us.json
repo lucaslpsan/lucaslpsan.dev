@@ -138,6 +138,11 @@
                 "name": "Blogger",
                 "link": "https://blog.lucaslpsan.dev/",
                 "possessive": "My"
+            },
+            {
+                "name": "Penup",
+                "link": "https://www.penup.com/profile/1592767313137901",
+                "possessive": "My"
             }
         ]
     },

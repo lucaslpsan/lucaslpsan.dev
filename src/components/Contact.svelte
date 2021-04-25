@@ -33,10 +33,8 @@
 
 <style>
     .links {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
         padding-left: 5vw;
     }
     @media (max-width: 1200px) {
@@ -44,10 +42,12 @@
             text-align: center;
             display: grid;
             grid-template-columns: 1fr 1fr;
+            align-items: end;
         }
     }
     .links a {
         width: 30px;
+        height: 30px;
     }
     .info-contacts {
         display: flex;
