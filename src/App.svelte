@@ -2,6 +2,7 @@
 	import { textLanguage as t } from "./helper/store";
 	import Section from "./components/Section.svelte";
 	import Signature from "./components/Signature.svelte";
+	import VisitCard from "./components/VisitCard.svelte";
 
 	let iconSwithTheme = true;
 
@@ -18,6 +19,9 @@
 		{$t.description}
 	</p>
 </main>
+<section class="visit-card">
+	<VisitCard pronouns={$t.visitCard} />
+</section>
 
 <Section section="training" />
 <Section section="certification" />
@@ -90,6 +94,11 @@
 	.language-select button:last-child {
 		font-size: 1.2em;
 	}
+
+	.visit-card {
+		text-align: center;
+	}
+
 	footer {
 		text-align: center;
 		padding-bottom: 3vh;

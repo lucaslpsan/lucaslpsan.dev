@@ -146,6 +146,10 @@
             }
         ]
     },
+    "visitCard": {
+        "me": "Eu",
+        "my": "Meu"
+    },
     "aux": {
         "permalink": "Link permanente para",
         "linkCertificationTitle": "Link da certificação em uma nova aba",
