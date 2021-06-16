@@ -4,6 +4,7 @@
     "description": "Enthusiast for Front-End, UX, database and security.",
     "footer": "2021© - made with Svelte.",
     "sections": {
+        "lastProjects": "Latest Projects",
         "training": "Training",
         "experience": "Experience",
         "certification": "Certifications",
@@ -11,6 +12,16 @@
         "contacts": "Contacts"
     },
     "content": {
+        "lastProjects": [
+            {
+                "title": "Cobol",
+                "description": "Cobol Starter Guide (Portuguese)",
+                "titleLink": "Go to the guide page",
+                "link": "https://cobol.lucaslpsan.dev",
+                "ref": "cobol",
+                "altImg": "Cobol logo image"
+            }
+        ],
         "training": [
             {
                 "name": "Bachelor of Information Systems",

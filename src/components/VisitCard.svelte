@@ -34,13 +34,13 @@
         <tspan x="12.506" y="13.643">{pronouns.me}</tspan>
     </text>
     <text xml:space="preserve" x="46.477" y="18.314">
-        <tspan x="46.197" y="13.701">{pronouns.my} Site</tspan>
+        <tspan x="46.197" y="13.701">{pronouns.my} site</tspan>
     </text>
     <text xml:space="preserve" x="27.503" y="37.583">
         <tspan x="25.998" y="32.97">{pronouns.my} GitbHub/LinkedIn</tspan>
     </text>
     <text xml:space="preserve" x="32.166" y="43.352">
-        <tspan x="32.166" y="43.352">{pronouns.my} E-mail</tspan>
+        <tspan x="32.166" y="43.352">{pronouns.my} e-mail</tspan>
     </text>
 </svg>
 

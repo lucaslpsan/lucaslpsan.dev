@@ -1,7 +1,7 @@
 <script>
 	import { textLanguage as t } from "./helper/store";
 	import Section from "./components/Section.svelte";
-	import Signature from "./components/Signature.svelte";
+	// import Signature from "./components/Signature.svelte";
 	import VisitCard from "./components/VisitCard.svelte";
 
 	let iconSwithTheme = true;
@@ -19,17 +19,19 @@
 		{$t.description}
 	</p>
 </main>
-<section class="visit-card">
-	<VisitCard pronouns={$t.visitCard} />
-</section>
 
+<Section section="lastProjects" />
 <Section section="training" />
 <Section section="certification" />
 <Section section="experience" />
 <Section section="projects" />
 <Section section="contacts" />
 
-<Signature />
+<section class="visit-card">
+	<VisitCard pronouns={$t.visitCard} />
+</section>
+
+<!-- <Signature /> -->
 
 <footer class="disable-select">{$t.footer}</footer>
 
@@ -96,6 +98,7 @@
 	}
 
 	.visit-card {
+		margin-top: 20px;
 		text-align: center;
 	}
 

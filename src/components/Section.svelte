@@ -6,6 +6,7 @@
     import Experience from "./Experience.svelte";
     import Project from "./Project.svelte";
     import Training from "./Training.svelte";
+    import LastProjects from "./LastProjects.svelte";
 </script>
 
 <section id={section}>
@@ -17,7 +18,9 @@
         >
     </h2>
     <!-- <slot /> -->
-    {#if section === "training"}
+    {#if section === "lastProjects"}
+        <LastProjects infos={$t.content[section]} />
+    {:else if section === "training"}
         <Training infos={$t.content[section]} />
     {:else if section === "certification"}
         <Certification

@@ -11,7 +11,7 @@
 
 .dark .hover button:not([disabled]):hover:after,
 .dark .hover a:not([disabled]):hover:after {
-	background: #EEE;
+	background: red;
 }
 
 .dark button {
