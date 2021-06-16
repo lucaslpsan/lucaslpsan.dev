@@ -4,6 +4,7 @@
     "description": "Entusiasta por Front-End, UX, banco de dados e segurança.",
     "footer": "2021© - feito com Svelte.",
     "sections": {
+        "lastProjects": "Últimos projetos",
         "training": "Formação",
         "experience": "Experiência",
         "certification": "Certificações",
@@ -11,6 +12,16 @@
         "contacts": "Contatos"
     },
     "content": {
+        "lastProjects": [
+            {
+                "title": "Cobol",
+                "description": "Guia inicial sobre Cobol",
+                "titleLink": "Ir para a página do guia",
+                "link": "https://cobol.lucaslpsan.dev",
+                "ref": "cobol",
+                "altImg": "Imagem do logo do Cobol"
+            }
+        ],
         "training": [
             {
                 "name": "Bacharelado em Sistemas de Infomação",
@@ -145,6 +156,10 @@
                 "possessive": "Minha"
             }
         ]
+    },
+    "visitCard": {
+        "me": "Eu",
+        "my": "Meu"
     },
     "aux": {
         "permalink": "Link permanente para",
