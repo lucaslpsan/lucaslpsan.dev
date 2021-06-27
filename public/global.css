@@ -97,3 +97,17 @@ button:focus {
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* Internet Explorer/Edge */
 }
+
+@keyframes example {
+	from {transform: scale(1)}
+	to {transform: scale(1.5)}
+}
+
+.focus {
+	/* transform: scale(1.5); */
+	animation: example 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.focus p {
+	visibility: visible !important;
+}

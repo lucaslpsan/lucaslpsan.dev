@@ -20,6 +20,7 @@
 	</p>
 </main>
 
+<Section section="badges" />
 <Section section="lastProjects" />
 <Section section="training" />
 <Section section="certification" />
