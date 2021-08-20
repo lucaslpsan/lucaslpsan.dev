@@ -4,20 +4,20 @@
     fill: #EEE;
 }
 
-.dark .logo img {
+/* .dark .logo img {
     filter: invert(.95);
     transition: filter 0.3s;
-}
+} */
 
 .dark .hover button:not([disabled]):hover:after,
 .dark .hover a:not([disabled]):hover:after {
 	background: red;
 }
 
-.dark button {
-	color: #999;
+/* .dark button {
+	color: #f4f4f4;
 }
 
 .dark button:disabled {
     color: #333;
-}
+} */

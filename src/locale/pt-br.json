@@ -9,9 +9,30 @@
         "experience": "Experiência",
         "certification": "Certificações",
         "projects": "Projetos",
-        "contacts": "Contatos"
+        "contacts": "Contatos",
+        "badges": "Minhas Badges"
     },
     "content": {
+        "badges": [
+            {
+                "title": "Google",
+                "description": "Certificação em Sites para Dispositivos Móveis",
+                "ref": "google",
+                "altImg": "Imagem do logo do Google"
+            },
+            {
+                "title": "IBM",
+                "description": "Master the Mainframe 2020",
+                "ref": "IBM",
+                "altImg": "Imagem do logo da IBM"
+            },
+            {
+                "title": "Cisco",
+                "description": "Breve badges de redes",
+                "ref": "Cisco",
+                "altImg": "Imagem do logo do Cisco"
+            }
+        ],
         "lastProjects": [
             {
                 "title": "Cobol",
