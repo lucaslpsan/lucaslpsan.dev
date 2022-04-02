@@ -46,6 +46,18 @@
                 "date": "2020",
                 "school": "Institute of Management and Information Technology",
                 "local": "Online"
+            },
+            {
+                "name": "Nano Course - Emerging Technology Solutions",
+                "date": "2020",
+                "school": "FIAP - University Center",
+                "local": "Online"
+            },
+            {
+                "name": "Distributed Software Architecture - Lato Sensu Postgraduate",
+                "date": "2022-2023",
+                "school": "PUCMINAS - Pontifícia Universidade Católica de Minas Gerais",
+                "local": "Online"
             }
         ],
         "certification": [
@@ -95,6 +107,13 @@
                 "type": "Private sector",
                 "description": "I paused my career in IT to manage my family's radiator workshop.",
                 "local": "Alvorada do Norte - Goiás - Brazil"
+            },
+            {
+                "name": "Systems Development Analyst at Serpro",
+                "date": "2021",
+                "type": "Public Service",
+                "description": "Analyze the demands presented by the business areas and propose alternative technical solutions and development strategies; elaborate the system specification, including requirements, user experience, logical and physical data design, implementation units, architecture, software and systems support.",
+                "local": "Curitiba - Paraná (Brasília - DF) - Brazil"
             }
         ],
         "projects": [

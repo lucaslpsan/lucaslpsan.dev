@@ -67,6 +67,18 @@
                 "date": "2020",
                 "school": "Instituto de Gestão e Tecnologia da Informação - IGTI",
                 "local": "Online"
+            },
+            {
+                "name": "Nano Course - Soluções Tecnológicas Emergentes",
+                "date": "2020",
+                "school": "FIAP - Centro Universitário",
+                "local": "Online"
+            },
+            {
+                "name": "Arquitetura de Software Distribuído - Pós-graduação Lato Sensu",
+                "date": "2022-2023",
+                "school": "PUCMINAS - Pontifícia Universidade Católica de Minas Gerais",
+                "local": "Online"
             }
         ],
         "certification": [
@@ -116,6 +128,13 @@
                 "type": "Iniciativa privada",
                 "description": "Pausei minha carreira na TI para administrar a oficina de radiadores da minha família.",
                 "local": "Alvorada do Norte - GO"
+            },
+            {
+                "name": "Analista de Desenvolvimento de Sistemas no Serpro",
+                "date": "2021",
+                "type": "Serviço público",
+                "description": "Analisar as demandas apresentadas pelas áreas de negócio e propor alternativas de solução técnica e estratégia de desenvolvimento; elaborar a especificação do sistema, incluindo requisitos, experiência do usuário, projeto lógico e físico de dados, unidades de implementação, arquitetura, sustentação de softwares e de sistemas.",
+                "local": "Curitiba - Paraná (Brasília - DF)"
             }
         ],
         "projects": [
